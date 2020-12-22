@@ -1,0 +1,95 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(52, 123, 113);
+}
+
+h1{
+    text-align: center;
+    align-self: center;
+    font-family: "Permanent Marker", sans-serif;
+    font-size: 50px;
+    color: #121c38;
+    
+    
+}
+
+input[type='text']{
+    width: 100%;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    font-family: 'Gloria Hallelujah', cursive;
+
+}
+.save{
+    border-radius: 10px;
+}
+.pencil{
+    background-color: rgb(169, 162, 162);
+    color: #003FF5;
+    width: 50px;
+    margin-right: 0;
+    border: 1px solid grey;
+    text-align: center;
+    border-radius: 10px;
+}
+div .col-items{
+    margin-top: 4rem;
+}
+.items{
+    display: inline-block;
+    width: 100%;
+    overflow: hidden;
+    /* border: 1px solid whitesmoke; */
+    height: 10vh;
+    margin-top: 1em;
+    background-color: #70aca4;
+    border-radius: 10px;
+    position: relative;
+}
+
+.del-icon{
+    display: inline;
+    background-color: rgb(187, 61, 61);
+    color:  rgb(232, 247, 250); 
+    border-radius: 10px;
+    width: 2rem;
+    height: 2rem;
+    margin-right: auto;
+
+    position: absolute;
+    bottom:0 ;
+    right: 0;
+}
+
+.undo-icon{
+    display: inline;
+    background-color: rgb(225, 228, 27);
+    color:  rgb(232, 247, 250); 
+    border-radius: 10px;
+    width: 2rem;
+    height: 2rem;
+    margin-right: auto;
+
+    position: absolute;
+    bottom:0 ;
+    right: 2.1em;
+}
+
+.done{
+    display: inline;
+    color:  rgb(232, 247, 250); 
+    border-radius: 10px;
+    width: 2rem;
+    height: 2rem;
+    background-color: rgb(87, 191, 87);
+
+    position: absolute;
+    bottom:0 ;
+    right: 4.3em;
+}
+.todo-text{
+    font-size: 2rem;
+    font-family: 'Gloria Hallelujah', cursive;
+}
