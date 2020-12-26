@@ -1,9 +1,3 @@
-# Django-ToDoApp
+# Django-ToDoApp-API
 
-
-
-![Design preview for the ToDoApp](./ToDoApp/projectApp/static/todoApp.png)
-
-This is my version of the very ubiquitous ToDoApp lol.
-
-I used mainly Django, Javascript and Bootstrap
+I added an API functnality to the todoApp
