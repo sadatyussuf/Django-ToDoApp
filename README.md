@@ -2,7 +2,7 @@
 
 
 
-![Design preview for the ToDoApp](./projectApp/static/todoApp.png)
+![Design preview for the ToDoApp](./ToDoApp/projectApp/static/todoApp.png)
 
 This is my version of the very ubiquitous ToDoApp lol.
 
